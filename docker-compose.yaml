@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  simple-html-docker:
+    image: simple-html-docker
+    build:
+      context: .
+      dockerfile: ./Dockerfile
